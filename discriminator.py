@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*- # @Author: aksharasoman # @Date: 2024-07-03 14:05:36 # @Last Modified by: aksharasoman # @Last Modified time: 2024-07-03 14:05:37
+# @Author: aksharasoman # @Date: 2024-07-03 14:05:36 # @Last Modified by: aksharasoman # @Last Modified time: 2024-07-03 14:05:37
 # Create Discriminator network (DCGAN)
 import torch.nn as nn
 
