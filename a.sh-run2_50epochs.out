@@ -1,0 +1,85 @@
+created virtual environment CPython3.11.5.final.0-64 in 8652ms
+  creator CPython3Posix(dest=/localscratch/ojus001.48931445.0/env, clear=False, no_vcs_ignore=False, global=False)
+  seeder FromAppData(download=False, pip=bundle, setuptools=bundle, wheel=bundle, via=copy, app_data_dir=/home/ojus001/.local/share/virtualenv)
+    added seed packages: pip==24.0+computecanada, setuptools==69.5.1+computecanada, wheel==0.43.0
+  activators BashActivator,CShellActivator,FishActivator,NushellActivator,PowerShellActivator,PythonActivator
+Looking in links: /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo2023/x86-64-v4, /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo2023/x86-64-v3, /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo2023/generic, /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo2023/x86-64-v3/matplotlib-3.9.0+computecanada-cp311-cp311-linux_x86_64.whl (from -r requirements.txt (line 1))
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo2023/x86-64-v3/torch-2.3.0+computecanada-cp311-cp311-linux_x86_64.whl (from -r requirements.txt (line 2))
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo2023/generic/torchvision-0.18.0+computecanada-cp311-cp311-linux_x86_64.whl (from -r requirements.txt (line 3))
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo2023/generic/contourpy-1.2.1+computecanada-cp311-cp311-linux_x86_64.whl (from matplotlib->-r requirements.txt (line 1))
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/cycler-0.12.1+computecanada-py3-none-any.whl (from matplotlib->-r requirements.txt (line 1))
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/fonttools-4.53.0+computecanada-cp311-cp311-linux_x86_64.whl (from matplotlib->-r requirements.txt (line 1))
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo2023/x86-64-v3/kiwisolver-1.4.5+computecanada-cp311-cp311-linux_x86_64.whl (from matplotlib->-r requirements.txt (line 1))
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo2023/generic/numpy-1.26.4+computecanada-cp311-cp311-linux_x86_64.whl (from matplotlib->-r requirements.txt (line 1))
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/packaging-24.1+computecanada-py3-none-any.whl (from matplotlib->-r requirements.txt (line 1))
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo2023/x86-64-v3/pillow-10.3.0+computecanada-cp311-cp311-linux_x86_64.whl (from matplotlib->-r requirements.txt (line 1))
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/pyparsing-3.1.2+computecanada-py3-none-any.whl (from matplotlib->-r requirements.txt (line 1))
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/python_dateutil-2.9.0.post0+computecanada-py2.py3-none-any.whl (from matplotlib->-r requirements.txt (line 1))
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/filelock-3.13.1+computecanada-py3-none-any.whl (from torch->-r requirements.txt (line 2))
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/typing_extensions-4.12.2+computecanada-py3-none-any.whl (from torch->-r requirements.txt (line 2))
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/sympy-1.12.1+computecanada-py3-none-any.whl (from torch->-r requirements.txt (line 2))
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/networkx-3.3+computecanada-py3-none-any.whl (from torch->-r requirements.txt (line 2))
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/jinja2-3.1.4+computecanada-py3-none-any.whl (from torch->-r requirements.txt (line 2))
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/fsspec-2024.6.1+computecanada-py3-none-any.whl (from torch->-r requirements.txt (line 2))
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo2023/x86-64-v3/Pillow_SIMD-9.0.0.post1+computecanada-cp311-cp311-linux_x86_64.whl (from torchvision->-r requirements.txt (line 3))
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/six-1.16.0+computecanada-py2.py3-none-any.whl (from python-dateutil>=2.7->matplotlib->-r requirements.txt (line 1))
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/MarkupSafe-2.1.5+computecanada-cp311-cp311-linux_x86_64.whl (from jinja2->torch->-r requirements.txt (line 2))
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/mpmath-1.3.0+computecanada-py3-none-any.whl (from sympy->torch->-r requirements.txt (line 2))
+Installing collected packages: mpmath, typing-extensions, sympy, six, pyparsing, pillow-simd, pillow, packaging, numpy, networkx, MarkupSafe, kiwisolver, fsspec, fonttools, filelock, cycler, python-dateutil, jinja2, contourpy, torch, matplotlib, torchvision
+Successfully installed MarkupSafe-2.1.5+computecanada contourpy-1.2.1+computecanada cycler-0.12.1+computecanada filelock-3.13.1+computecanada fonttools-4.53.0+computecanada fsspec-2024.6.1+computecanada jinja2-3.1.4+computecanada kiwisolver-1.4.5+computecanada matplotlib-3.9.0+computecanada mpmath-1.3.0+computecanada networkx-3.3+computecanada numpy-1.26.4+computecanada packaging-24.1+computecanada pillow-10.3.0+computecanada pillow-simd-9.0.0.post1+computecanada pyparsing-3.1.2+computecanada python-dateutil-2.9.0.post0+computecanada six-1.16.0+computecanada sympy-1.12.1+computecanada torch-2.3.0+computecanada torchvision-0.18.0+computecanada typing-extensions-4.12.2+computecanada
+starting training...
+/localscratch/ojus001.48931445.0/env/lib/python3.11/site-packages/torch/nn/modules/conv.py:456: UserWarning: Plan failed with a cudnnException: CUDNN_BACKEND_EXECUTION_PLAN_DESCRIPTOR: cudnnFinalize Descriptor Failed cudnn_status: CUDNN_STATUS_NOT_SUPPORTED (Triggered internally at /home/coulombc/wheels_builder/tmp.2617/python-3.11/torch/aten/src/ATen/native/cudnn/Conv_v8.cpp:919.)
+  return F.conv2d(input, weight, bias, self.stride,
+/localscratch/ojus001.48931445.0/env/lib/python3.11/site-packages/torch/autograd/graph.py:744: UserWarning: Plan failed with a cudnnException: CUDNN_BACKEND_EXECUTION_PLAN_DESCRIPTOR: cudnnFinalize Descriptor Failed cudnn_status: CUDNN_STATUS_NOT_SUPPORTED (Triggered internally at /home/coulombc/wheels_builder/tmp.2617/python-3.11/torch/aten/src/ATen/native/cudnn/Conv_v8.cpp:919.)
+  return Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+Epoch: 1 | D_loss: 0.6719483163819384 | G_loss: 0.7488717586755245
+Epoch: 2 | D_loss: 0.6438492915269408 | G_loss: 0.8252682411340254
+Epoch: 3 | D_loss: 0.6381278250263189 | G_loss: 0.8531073115781934
+Epoch: 4 | D_loss: 0.641230799368958 | G_loss: 0.8572609218707217
+Epoch: 5 | D_loss: 0.6411891104315898 | G_loss: 0.8573113845101298
+Epoch: 6 | D_loss: 0.642418394464928 | G_loss: 0.8585770215306964
+Epoch: 7 | D_loss: 0.6402261539308756 | G_loss: 0.8664886716332263
+Epoch: 8 | D_loss: 0.6381348131307915 | G_loss: 0.8729865545911322
+Epoch: 9 | D_loss: 0.6367200431284874 | G_loss: 0.8750163583613154
+Epoch: 10 | D_loss: 0.6315177104620537 | G_loss: 0.8882490216033545
+Epoch: 11 | D_loss: 0.624699019674045 | G_loss: 0.9114945347883554
+Epoch: 12 | D_loss: 0.6143801992635991 | G_loss: 0.9346669062114219
+Epoch: 13 | D_loss: 0.602590481609678 | G_loss: 0.9725796537104446
+Epoch: 14 | D_loss: 0.5890214644007082 | G_loss: 1.0188159135613106
+Epoch: 15 | D_loss: 0.5799122154077233 | G_loss: 1.0547477045038869
+Epoch: 16 | D_loss: 0.5705853503650186 | G_loss: 1.0898915597879049
+Epoch: 17 | D_loss: 0.5571402553429228 | G_loss: 1.122425646797172
+Epoch: 18 | D_loss: 0.5480920624122945 | G_loss: 1.1597268707208288
+Epoch: 19 | D_loss: 0.5661787655053616 | G_loss: 1.1757186907949224
+Epoch: 20 | D_loss: 0.5324290464046413 | G_loss: 1.1917731998317531
+Epoch: 21 | D_loss: 0.5282291205707135 | G_loss: 1.2254169176636474
+Epoch: 22 | D_loss: 0.5243723133860875 | G_loss: 1.2457062399971968
+Epoch: 23 | D_loss: 0.5197792278169823 | G_loss: 1.2659716679851638
+Epoch: 24 | D_loss: 0.51044655996345 | G_loss: 1.3001039302679522
+Epoch: 25 | D_loss: 0.5069521527681777 | G_loss: 1.3256543038496331
+Epoch: 26 | D_loss: 0.5007694917065757 | G_loss: 1.3554262855668058
+Epoch: 27 | D_loss: 0.4924977914865083 | G_loss: 1.3787148903682034
+Epoch: 28 | D_loss: 0.5251727840666578 | G_loss: 1.3788917118044042
+Epoch: 29 | D_loss: 0.49273377866633156 | G_loss: 1.3808277265857787
+Epoch: 30 | D_loss: 0.516981023079805 | G_loss: 1.3963914128508903
+Epoch: 31 | D_loss: 0.4951483614917503 | G_loss: 1.3717582317303494
+Epoch: 32 | D_loss: 0.49995882272211983 | G_loss: 1.3909654154706357
+Epoch: 33 | D_loss: 0.49886879121570954 | G_loss: 1.4014636730588574
+Epoch: 34 | D_loss: 0.5005537926642372 | G_loss: 1.4024724807820594
+Epoch: 35 | D_loss: 0.5559814571063402 | G_loss: 1.371904105265766
+Epoch: 36 | D_loss: 0.5093759117858496 | G_loss: 1.33398451632274
+Epoch: 37 | D_loss: 0.5141537234600164 | G_loss: 1.341564482463194
+Epoch: 38 | D_loss: 0.5176373710637407 | G_loss: 1.3493834449284112
+Epoch: 39 | D_loss: 0.5200001111289839 | G_loss: 1.3377342437630269
+Epoch: 40 | D_loss: 0.5225705566690929 | G_loss: 1.3377768004626862
+Epoch: 41 | D_loss: 0.5247878046559372 | G_loss: 1.3281292513743648
+Epoch: 42 | D_loss: 0.5367561704568518 | G_loss: 1.3165155407716471
+Epoch: 43 | D_loss: 0.5240742207717285 | G_loss: 1.298670795934795
+Epoch: 44 | D_loss: 0.5260885259998378 | G_loss: 1.3022783666785591
+Epoch: 45 | D_loss: 0.5297710122203013 | G_loss: 1.3002604546069083
+Epoch: 46 | D_loss: 0.5318919795789698 | G_loss: 1.2964513223054313
+Epoch: 47 | D_loss: 0.5378761902801009 | G_loss: 1.2737469840913946
+Epoch: 48 | D_loss: 0.5321192964434878 | G_loss: 1.2838730723110598
+Epoch: 49 | D_loss: 0.5403870527169852 | G_loss: 1.2752836754581314
+Epoch: 50 | D_loss: 0.5358821173974955 | G_loss: 1.2679978354907493

@@ -60,8 +60,8 @@ def train_GAN(trainloader,D,G,D_opt,G_opt):
       save_image(gen_img[:36],fname,nrow=6)
     
     # save model state  dictionary
-    torch.save(D.state_dict(), 'discriminator_state.pth')
-    torch.save(G.state_dict(), 'generator_state.pth')
+    torch.save(D.state_dict(), 'results/discriminator_state.pth')
+    torch.save(G.state_dict(), 'results/generator_state.pth')
 
 
     
