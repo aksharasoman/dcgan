@@ -1,0 +1,23 @@
+1. a.sh-run1_20epochs.out
+Parameters: num of epochs = 20
+batch_size = 128
+noise_dim = 64
+
+# Optimizer parameters
+lr = 0.002
+beta_1 = 0.5
+beta_2 = 0.999
+
+# Loss function
+generator loss = real_loss(Discriminator_output(fake_image))
+discriminator loss = average of fake loss and real loss
+
+where,
+criterion  = BCEloss_withLogits()
+real_loss = criterion(disc_output,gnd_truth) where gnd_truth is all ones.
+fake_loss = criterion(dsic_output, gnd_truth) where gnd_truth is all zeros.
+For disc loss computation, real_loss is fed with D(real_img) & fake loss with D(fake_img)
+
+2. a.sh-run2_50epochs.out
+Change is 
+num_epochs = 50
