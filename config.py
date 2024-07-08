@@ -11,4 +11,4 @@ beta_1 = 0.5
 beta_2 = 0.999
 
 # Training Parameters
-epochs = 20
+epochs = 50
